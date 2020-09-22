@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'lambert2SG',
+      parameters: [
+        {
+          baseColor: 'Tex_BengalTiger',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'Sampledata/Mesh_BengalTiger.obj',
+    name: 'Mesh_BengalTiger',
+    recenter: 'root',
+    scale: 0.0150000001,
+  },
+  samplers: [
+    {
+      file: 'Sampledata\\Tex_BengalTiger.png',
+      name: 'Tex_BengalTiger',
+      pipeline_name: 'Tex_BengalTiger.png',
+    },
+  ],
+  version: '0.52:1',
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background3"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/menu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="160dp"/>
+    <Button
+        android:id="@+id/Button_3d"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="60dp"
+        android:text="WATCH 3D"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/Button_scan"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="60dp"
+        android:text="BOOK"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/Button_sound"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="60dp"
+        android:text="Alphabet SOUND"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/Button_about"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="60dp"
+        android:text="ABOUT"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/Button_exit"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="60dp"
+        android:text="EXIT"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/custom_button"/>
+
+
+
+
+
+</RelativeLayout>

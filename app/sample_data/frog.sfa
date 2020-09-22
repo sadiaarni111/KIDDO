@@ -1,0 +1,81 @@
+{
+  materials: [
+    {
+      name: 'lambert2SG',
+      parameters: [
+        {
+          baseColor: 'frogBodyTxt',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert3SG',
+      parameters: [
+        {
+          baseColor: 'frogEyeTxt',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'Sampledata/frog.obj',
+    name: 'frog',
+    recenter: 'root',
+    scale: 0.54742299999999999,
+  },
+  samplers: [
+    {
+      file: 'Sampledata\\frogBodyTxt.png',
+      name: 'frogBodyTxt',
+      pipeline_name: 'frogBodyTxt.png',
+    },
+    {
+      file: 'Sampledata\\frogEyeTxt.png',
+      name: 'frogEyeTxt',
+      pipeline_name: 'frogEyeTxt.png',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'Giraffe_mat',
+      parameters: [
+        {
+          baseColor: 'Giraffe_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'Sampledata/Giraffe.obj',
+    name: 'Giraffe',
+    recenter: 'root',
+    scale: 0.244453,
+  },
+  samplers: [
+    {
+      file: 'Sampledata\\Giraffe_BaseColor.png',
+      name: 'Giraffe_BaseColor',
+      pipeline_name: 'Giraffe_BaseColor.png',
+    },
+  ],
+  version: '0.54:2',
+}

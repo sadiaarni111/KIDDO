@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI_interface">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            >
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="2dp"
+                android:drawableLeft="@drawable/tiger"
+
+
+                android:onClick="tiger"
+                android:paddingLeft="10dp"
+                android:text="tiger"
+                android:textSize="30sp"
+                android:textStyle="bold"></Button>
+
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/fox"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                android:layout_marginTop="2dp"
+                android:onClick="fox"
+                android:text="fox"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2dp"
+                android:drawableLeft="@drawable/car"
+                android:onClick="car"
+
+                android:paddingLeft="10dp"
+
+                android:text="CAR"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                >
+
+
+            </Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/door"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="2dp"
+                android:onClick="door"
+                android:text="door"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/policecar"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+
+                android:layout_marginTop="2dp"
+                android:onClick="police"
+                android:text="police car"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/ufo"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                android:layout_marginTop="2dp"
+                android:onClick="ufo"
+                android:text="ufo"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/frog"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="2dp"
+                android:onClick="frog"
+                android:text="FROG"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/gasstation"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+
+                android:layout_marginTop="2dp"
+                android:onClick="gas"
+                android:text="Gas Station"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/ladder"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="2dp"
+                android:onClick="ladder"
+                android:text="Ladder"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/donut"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="2dp"
+                android:onClick="donut"
+                android:text="Donut"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+
+
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/travelling"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+
+                android:layout_marginTop="2dp"
+                android:onClick="airplane"
+                android:text="Airplane"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/rocket"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:onClick="rocket"
+                android:text="rocket"></Button>
+
+            <Button
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/cup"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                android:layout_marginTop="2dp"
+                android:onClick="cup"
+                android:text="Cup"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/chair"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+
+                android:layout_marginTop="2dp"
+                android:onClick="chair"
+                android:text="Chair"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/sofa"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+
+                android:layout_marginTop="2dp"
+                android:onClick="sofa"
+                android:text="Sofa"></Button>
+
+            <Button
+                android:layout_width="410dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentTop="true"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/tank"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+
+                android:layout_marginTop="2dp"
+                android:onClick="cannon"
+                android:text="Cannon"></Button>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

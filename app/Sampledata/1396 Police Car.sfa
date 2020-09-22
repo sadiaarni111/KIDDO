@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'Mat',
+      parameters: [
+        {
+          baseColor: '1396 Police Car',
+        },
+        {
+          baseColorTint: [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'Sampledata/1396 Police Car.obj',
+    name: '1396 Police Car',
+    recenter: 'root',
+    scale: 0.021621999999999999,
+  },
+  samplers: [
+    {
+      file: 'Sampledata\\1396 Police Car.png',
+      name: '1396 Police Car',
+      pipeline_name: '1396 Police Car.png',
+    },
+  ],
+  version: '0.54:2',
+}

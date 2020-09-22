@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'lambert5SG',
+      parameters: [
+        {
+          baseColor: 'Wirst Watch Texture',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'Sampledata/watch.obj',
+    name: 'watch',
+    recenter: 'root',
+    scale: 0.0029390000000000002,
+  },
+  samplers: [
+    {
+      file: 'Sampledata\\Wirst Watch Texture.png',
+      name: 'Wirst Watch Texture',
+      pipeline_name: 'Wirst Watch Texture.png',
+    },
+  ],
+  version: '0.54:2',
+}

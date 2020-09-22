@@ -1,0 +1,43 @@
+{
+  materials: [
+    {
+      name: 'ArcticFox_Posed_initialShadingGroup',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 5,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'Sampledata/ArcticFox_Posed.obj',
+    name: 'ArcticFox_Posed',
+    recenter: 'root',
+    scale: 0.15886700000000001,
+  },
+  version: '0.54:2',
+}

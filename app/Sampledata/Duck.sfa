@@ -1,0 +1,52 @@
+{
+  materials: [
+    {
+      name: 'MallardDuck_Mat',
+      parameters: [
+        {
+          baseColor: 'MallardDuck_BaseColor',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'Sampledata/Duck.obj',
+    name: 'Duck',
+    recenter: 'root',
+    scale: 0.21819999999999999
+
+  },
+  samplers: [
+    {
+      file: 'Sampledata\\MallardDuck_BaseColor.png',
+      name: 'MallardDuck_BaseColor',
+      pipeline_name: 'MallardDuck_BaseColor.png',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,278 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.example.kiddo"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    /*compileOptions.with {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }*/
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    //implementation 'com.google.ar:core:1.4.0'
+    //implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.4.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.17.1'
+//    implementation 'com.karumi:dexter:5.0.0'
+    implementation 'com.google.ar.sceneform:core:1.17.1'
+    implementation 'com.google.ar:core:1.19.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+}
+
+
+sceneform.asset('Sampledata/ArcticFox_Posed.obj',
+        'default',
+        'Sampledata/ArcticFox_Posed.sfa',
+        'src/main/assets/ArcticFox_Posed')
+
+
+sceneform.asset('Sampledata/Mesh_BengalTiger.obj',
+        'default',
+        'Sampledata/Mesh_BengalTiger.sfa',
+        'src/main/assets/Mesh_BengalTiger')
+sceneform.asset('Sampledata/frog.obj',
+
+        'default',                    // 'Material Path' specified during import.
+
+        'sample_data/frog.sfa',
+
+        'src/main/assets/frog')      // 'location you want to store the generated .sfb file'
+
+
+sceneform.asset('Sampledata/Coffee Cup_final.obj',
+        'default',
+        'Sampledata/Coffee Cup_final.sfa',
+        'src/main/assets/Coffee Cup_final')
+
+sceneform.asset('Sampledata/model.obj',
+        'default',
+        'Sampledata/model.sfa',
+        'src/main/assets/model')
+
+sceneform.asset('Sampledata/car.obj',
+        'default',
+        'Sampledata/car.sfa',
+        'src/main/assets/car')
+
+sceneform.asset('Sampledata/GasStation.obj',
+        'default',
+        'Sampledata/GasStation.sfa',
+        'src/main/assets/GasStation')
+
+sceneform.asset('Sampledata/1396 Police Car.obj',
+        'default',
+        'Sampledata/1396 Police Car.sfa',
+        'src/main/assets/1396 Police Car')
+
+sceneform.asset('Sampledata/flying sacuer.obj',
+        'default',
+        'Sampledata/flying sacuer.sfa',
+        'src/main/assets/flying sacuer')
+
+sceneform.asset('Sampledata/PUSHILIN_Plane.obj',
+        'default',
+        'Sampledata/PUSHILIN_Plane.sfa',
+        'src/main/assets/PUSHILIN_Plane')
+
+sceneform.asset('Sampledata/rocket.obj',
+        'default',
+        'Sampledata/rocket.sfa',
+        'src/main/assets/rocket')
+
+sceneform.asset('Sampledata/Chair3.obj',
+        'default',
+        'Sampledata/Chair3.sfa',
+        'src/main/assets/Chair3')
+
+sceneform.asset('Sampledata/Chair2.obj',
+        'default',
+        'Sampledata/Chair2.sfa',
+        'src/main/assets/Chair2')
+
+sceneform.asset('Sampledata/lader.obj',
+        'default',
+        'Sampledata/lader.sfa',
+        'src/main/assets/lader')
+
+sceneform.asset('Sampledata/cannon.obj',
+        'default',
+        'Sampledata/cannon.sfa',
+        'src/main/assets/cannon')
+
+
+sceneform.asset('Sampledata/door.obj',
+        'default',
+        'Sampledata/door.sfa',
+        'src/main/assets/door')
+
+sceneform.asset('Sampledata/yatch.obj',
+        'default',
+        'Sampledata/yatch.sfa',
+        'src/main/assets/yatch')
+
+sceneform.asset('Sampledata/xylophone.obj',
+        'default',
+        'Sampledata/xylophone.sfa',
+        'src/main/assets/xylophone')
+sceneform.asset('Sampledata/watch.obj',
+        'default',
+        'Sampledata/watch.sfa',
+        'src/main/assets/watch')
+
+sceneform.asset('Sampledata/vase.obj',
+        'default',
+        'Sampledata/vase.sfa',
+        'src/main/assets/vase')
+
+sceneform.asset('Sampledata/umbrella.obj',
+        'default',
+        'Sampledata/umbrella.sfa',
+        'src/main/assets/umbrella')
+
+sceneform.asset('Sampledata/tree.obj',
+        'default',
+        'Sampledata/tree.sfa',
+        'src/main/assets/tree')
+
+sceneform.asset('Sampledata/star.obj',
+        'default',
+        'Sampledata/star.sfa',
+        'src/main/assets/star')
+
+
+sceneform.asset('Sampledata/rainbow.obj',
+        'default',
+        'Sampledata/rainbow.sfa',
+        'src/main/assets/rainbow')
+
+sceneform.asset('Sampledata/quail.obj',
+        'default',
+        'Sampledata/quail.sfa',
+        'src/main/assets/quail')
+
+sceneform.asset('Sampledata/pencil.obj',
+        'default',
+        'Sampledata/pencil.sfa',
+        'src/main/assets/pencil')
+
+
+sceneform.asset('Sampledata/nest.obj',
+        'default',
+        'Sampledata/nest.sfa',
+        'src/main/assets/nest')
+
+sceneform.asset('Sampledata/monkey.obj',
+        'default',
+        'Sampledata/monkey.sfa',
+        'src/main/assets/monkey')
+
+sceneform.asset('Sampledata/lolipop.obj',
+        'default',
+        'Sampledata/lolipop.sfa',
+        'src/main/assets/lolipop')
+
+
+sceneform.asset('Sampledata/jug.obj',
+        'default',
+        'Sampledata/jug.sfa',
+        'src/main/assets/jug')
+
+
+sceneform.asset('Sampledata/home.obj',
+        'default',
+        'Sampledata/home.sfa',
+        'src/main/assets/home')
+
+sceneform.asset('Sampledata/fish.obj',
+        'default',
+        'Sampledata/fish.sfa',
+        'src/main/assets/fish')
+
+
+sceneform.asset('Sampledata/Giraffe.obj',
+        'default',
+        'Sampledata/Giraffe.sfa',
+        'src/main/assets/Giraffe')
+
+sceneform.asset('Sampledata/Ice Cream.obj',
+        'default',
+        'Sampledata/Ice Cream.sfa',
+        'src/main/assets/Ice Cream')
+
+sceneform.asset('Sampledata/Kite.obj',
+        'default',
+        'Sampledata/Kite.sfa',
+        'src/main/assets/Kite')
+
+sceneform.asset('Sampledata/Orange.obj',
+        'default',
+        'Sampledata/Orange.sfa',
+        'src/main/assets/Orange')
+
+sceneform.asset('Sampledata/Zebra.obj',
+        'default',
+        'Sampledata/Zebra.sfa',
+        'src/main/assets/Zebra')
+
+sceneform.asset('Sampledata/egg.obj',
+        'default',
+        'Sampledata/egg.sfa',
+        'src/main/assets/egg')
+
+sceneform.asset('Sampledata/Duck.obj',
+        'default',
+        'Sampledata/Duck.sfa',
+        'src/main/assets/Duck')
+
+sceneform.asset('Sampledata/Cat.obj',
+        'default',
+        'Sampledata/Cat.sfa',
+        'src/main/assets/Cat')
+
+sceneform.asset('Sampledata/Basketball.obj',
+        'default',
+        'Sampledata/Basketball.sfa',
+        'src/main/assets/Basketball')
+
+sceneform.asset('Sampledata/Apple.obj',
+        'default',
+        'Sampledata/Apple.sfa',
+        'src/main/assets/Apple')
+
+
+sceneform.asset('Sampledata/stop.obj',
+        'default',
+        'Sampledata/stop.sfa',
+        'src/main/assets/stop')
+
+
+
+
+
